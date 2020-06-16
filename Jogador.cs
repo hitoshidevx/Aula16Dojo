@@ -16,7 +16,6 @@ namespace Aula18Dojo1
         public float Peso {get; set;}
         public string Nacionalidade { get; set; }
 
-
         public string MostrarDados(){
             return $"Nome: {Nome}\nPosição do jogador: {Posicao}\nData de nascimento: {Nascimento}\nAltura: {Altura}\nPeso: {Peso}\nNacionalidade: {Nacionalidade}";
         }
@@ -30,6 +29,7 @@ namespace Aula18Dojo1
 
             idade = anoAtual - anoNasct;
             idadeRest = 35 - idade;
+            // Idade está em 35 pois não soubemos um método para atribuir a Posição como idade e a respectiva posição.
 
             return idade;
             
